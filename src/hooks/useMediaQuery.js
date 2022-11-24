@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 
 const canUseDOM = () =>
+  //forma segura de saber si estoy en una ventana de navegador
   !!(
     typeof window !== "undefined" &&
     window.document &&

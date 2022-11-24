@@ -16,4 +16,10 @@
   border: none;
   border-radius: 50%;
   text-decoration: none;
+  box-shadow: 0 0 25px 2px darken($color-gris-01, 25%);
+  transition: background-color ease 0.3s, color ease 0.3s;
+  &:hover {
+    background-color: $color-gris-04;
+    color: $color-celeste-01;
+  }
 }
