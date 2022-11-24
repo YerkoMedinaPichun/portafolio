@@ -1,0 +1,22 @@
+@import "./Colores.scss";
+
+.about {
+  //width: 100%;
+  min-height: 25rem;
+  //background-color: $color-gris-02;
+  position: relative;
+
+  color: $color-gris-03;
+
+  p {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: justify;
+    span {
+      color: $color-celeste-01;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "./Colores.scss";
+
+.section {
+  width: 100%;
+  padding: 2rem 0;
+  &:nth-of-type(odd) {
+    background-color: $color-gris-02;
+  }
+
+  h2 {
+    color: #42b8e1;
+    font-size: 2.6rem;
+    margin: 0;
+    //background-color: red;
+    padding: 4rem 2rem;
+  }
+}

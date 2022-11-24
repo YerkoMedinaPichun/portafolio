@@ -1,0 +1,114 @@
+@import "./Colores.scss";
+
+.card {
+  position: relative;
+  max-width: 35rem;
+  min-width: 15rem;
+  height: 60rem;
+
+  overflow: hidden;
+
+  &:hover .lines::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 92rem;
+    height: 12rem;
+    background: linear-gradient(transparent, $color-celeste-01, $color-celeste-01, $color-celeste-01, transparent);
+    animation: animate 4s linear infinite;
+  }
+  &:hover .lines::after {
+    content: "";
+    content: "";
+    position: absolute;
+    inset: 3px;
+
+    transition: background-color ease 0.5s;
+    background-color: $color-gris-02;
+  }
+
+  .lines {
+    position: absolute;
+    inset: 0;
+    background-color: darken($color-gris-01, 2%);
+  }
+
+  &:hover .container-img .img {
+    filter: grayscale(0);
+    scale: (1.4);
+  }
+  .container-img {
+    //background-color: red;
+    position: relative;
+    //width: 27.4rem;
+    max-width: 34.4rem;
+    margin: 5px;
+
+    height: 22.4rem;
+    overflow: hidden;
+    z-index: 25;
+
+    .img {
+      position: relative;
+      filter: grayscale(1);
+      transition: filter ease 0.5s, scale ease 0.5s;
+
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      width: 100%;
+      height: 100%;
+      z-index: 30;
+    }
+  }
+  p,
+  a {
+    position: relative;
+    padding: 1rem 2rem;
+    z-index: 30;
+    color: $color-gris-04;
+  }
+  .name {
+    color: $color-celeste-01;
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: left;
+  }
+  .description {
+    text-align: justify;
+    font-size: 1.8rem;
+  }
+  .tech {
+    padding: 2rem;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+    color: $color-celeste-01;
+    transition: background-color ease 0.3s;
+    &:hover {
+      background-color: $color-gris-04;
+      color: darken($color-celeste-01, 15%);
+    }
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

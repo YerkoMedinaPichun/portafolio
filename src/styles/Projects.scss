@@ -1,0 +1,26 @@
+@import "./Colores.scss";
+
+.projects {
+  //padding: 2rem;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-wrap: wrap;
+  // gap: 2rem;
+
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  align-content: center;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0 2rem;
+  @media (min-width: 1135px) {
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+  }
+}
