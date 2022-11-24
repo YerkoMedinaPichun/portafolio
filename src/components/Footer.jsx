@@ -15,6 +15,12 @@ const Footer = () => {
           </span>
           <span>
             <div className="container-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <p>+569 4135 7298</p>
+          </span>
+          <span>
+            <div className="container-icon">
               <ion-icon name="logo-github"></ion-icon>
             </div>
             <a
@@ -35,6 +41,17 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               Ir a LinkedIn
+            </a>
+          </span>
+          <span>
+            <div className="container-icon">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </div>
+            <a
+              download="CV_YerkoMedinaPichun.pdf"
+              href="./CV_YerkoMedinaPichun.pdf"
+            >
+              Descargar CV
             </a>
           </span>
         </div>
