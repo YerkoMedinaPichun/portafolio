@@ -5,7 +5,7 @@ import "../styles/Section.scss";
 const Footer = () => {
   return (
     <>
-      <div className="container-footer">
+      <div id="contact" className="container-footer">
         <div className="footer">
           <span>
             <div className="container-icon">

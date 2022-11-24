@@ -1,0 +1,19 @@
+@import "./Colores.scss";
+
+.container-up-button {
+  position: fixed;
+  z-index: 999;
+  width: 5rem;
+  height: 5rem;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: $color-celeste-01;
+  color: $color-gris-04;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  text-decoration: none;
+}

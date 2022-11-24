@@ -1,5 +1,10 @@
 @import "./Colores.scss";
 
+h2 {
+  @media (min-width: 600px) {
+    text-align: center;
+  }
+}
 .projects {
   //padding: 2rem;
   // display: flex;

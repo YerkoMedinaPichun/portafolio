@@ -3,7 +3,7 @@ import "../styles/Banner.scss";
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div id="home" className="banner">
       <h1>
         {`Hola, mi nombre es `}
         <span>

@@ -34,10 +34,24 @@
     top: -10rem;
     margin: 1rem;
     line-height: 5rem;
+
     span {
       // animation: name duration timing-function delay iteration-count direction fill-mode;
       animation: animarTexto 0.5s infinite alternate-reverse;
       color: $color-celeste-01;
+      @media (min-width: 800px) {
+        font-size: 3.6rem;
+      }
+    }
+    @media (min-width: 1000px) {
+      width: 90rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      span {
+        font-size: 4.8rem;
+        padding-bottom: 1rem;
+      }
     }
   }
 }

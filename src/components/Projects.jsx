@@ -19,7 +19,7 @@ import img12 from "../img/proyecto_12.jpg";
 const Projects = () => {
   return (
     <section className="section">
-      <h2>Mis Proyectos</h2>
+      <h2 id="projects">Mis Proyectos</h2>
       <div className="projects">
         <CardProject
           className="img"

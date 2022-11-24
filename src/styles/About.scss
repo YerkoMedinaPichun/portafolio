@@ -7,6 +7,13 @@
   position: relative;
 
   color: $color-gris-03;
+  @media (min-width: 600px) {
+    width: 58.3rem;
+    margin: auto;
+    h2 {
+      text-align: center;
+    }
+  }
 
   p {
     padding: 1rem 2rem;

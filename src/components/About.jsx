@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="section">
       <div className="about">
-        <h2>Sobre Mí</h2>
+        <h2 id="about">Sobre Mí</h2>
         <p>
           Mi nombre es <span>Yerko Medina Pichún</span>, tengo 23 años, estudié
           la carrera de <span>Analista Programador</span> en <span>Inacap</span>{" "}

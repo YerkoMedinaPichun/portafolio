@@ -98,8 +98,8 @@
     color: $color-celeste-01;
     transition: background-color ease 0.3s;
     &:hover {
-      background-color: $color-gris-04;
-      color: darken($color-celeste-01, 15%);
+      background-color: $color-celeste-01;
+      color: $color-gris-01;
     }
   }
 }
