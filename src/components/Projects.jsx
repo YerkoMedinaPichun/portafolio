@@ -15,12 +15,21 @@ import img09 from "../img/proyecto_09.jpg";
 import img10 from "../img/proyecto_10.jpg";
 import img11 from "../img/proyecto_11.jpg";
 import img12 from "../img/proyecto_12.jpg";
+import img13 from "../img/proyecto_13.jpg";
 
 const Projects = () => {
   return (
     <section className="section">
       <h2 id="projects">Mis Proyectos</h2>
       <div className="projects">
+        <CardProject
+          className="img"
+          src={img13}
+          name="Color Save"
+          description="Proyecto para Guardar Colores."
+          tech="HTML - CSS - SASS - Javascript - React.js"
+          link="https://color-save.netlify.app/"
+        />
         <CardProject
           className="img"
           src={img12}
